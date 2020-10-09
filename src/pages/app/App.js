@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const url = `http://localhost:3001/`
+      const url = `https://agile-sea-12338.herokuapp.com/`
       const res = await fetch(url)
 
       const data = await res.json()
